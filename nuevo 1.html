@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tu Empresa de Delivery</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 50px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tu Empresa de Delivery</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenido a Tu Empresa de Delivery</h2>
+    <p>Servicio rápido y confiable de entrega a domicilio</p>
+  </section>
+
+  <section id="menu">
+    <h2>Menú</h2>
+    <div id="items">
+      <!-- Aquí puedes agregar tus platos y descripciones -->
+      <div class="item">
+        <h3>Plato 1</h3>
+        <p>Descripción del plato 1.</p>
+      </div>
+      <div class="item">
+        <h3>Plato 2</h3>
+        <p>Descripción del plato 2.</p>
+      </div>
+      <div class="item">
+        <h3>Plato 3</h3>
+        <p>Descripción del plato 3.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¡Haz tu pedido ahora!</p>
+    <p>Teléfono: 123-456-7890</p>
+    <p>Email: info@tudelivery.com</p>
+    <form id="pedido-form" action="mailto:rafaeledenilson02@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar Pedido</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Derechos reservados &copy; 2023 Tu Empresa de Delivery</p>
+  </footer>
+</body>
+</html>
